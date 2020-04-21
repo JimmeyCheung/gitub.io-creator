@@ -20,7 +20,7 @@ git init
 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
 echo 'theme = "ananke"' >> config.toml
 ```
-5. 下载自定义主题安装
+5. 下载自定义主题安装(该步骤可跳过)
 * git clone 主题地址到themes目录
 * 删除主题中的.git文件: rm -rf ./themes/.git
 * 修改config.toml文件中的theme指定主题名
